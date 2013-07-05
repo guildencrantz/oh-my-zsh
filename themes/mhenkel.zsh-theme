@@ -25,6 +25,7 @@ PROMPT='
 $(virtualenv_info)$(prompt_char) '
 
 #RPROMPT='$(battery_charge)'
+RPROMPT='%{$fg[green]%}%*%{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[magenta]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
